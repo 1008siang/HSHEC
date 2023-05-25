@@ -4,7 +4,8 @@
 }
 
 body{
-    background-color:bisque;
+    background-image: url(back1.jpg);
+    background-size:cover
 }
 
 nav{
@@ -14,7 +15,7 @@ nav{
 }
 
 ul{
-    margin: 0 auto;
+    margin-left: 50px;
 }
 
 ul li{
@@ -36,3 +37,16 @@ ul li a{
 ul li a:hover{
     color: red;
 }
+
+.logo{
+    width: 350px;
+    height: 80px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+.wrapper{
+    margin: 0 auto;
+    width: 1000px;
+}
+
