@@ -4,8 +4,8 @@
 }
 
 body{
-    background-image: url(back1.jpg);
-    background-size:cover
+    background-color: antiquewhite;;
+    background-size:cover;
 }
 
 nav{
@@ -16,14 +16,23 @@ nav{
 
 ul{
     margin-left: 50px;
+    text-align: right;
 }
 
 ul li{
     list-style: none;
     display: inline-block;
+    float: rigth;
+    line-height: 100px;
+}
+
+ul li:first-child{
+    list-style: none;
+    display: inline-block;
     float: left;
     line-height: 100px;
 }
+
 
 ul li a{
     display: block;
@@ -31,7 +40,7 @@ ul li a{
     font-size: 18px;
     font-family: Arial;
     color: black;
-    padding: 0 25px;
+    padding: 0 30px;
 }
 
 ul li a:hover{
@@ -39,14 +48,50 @@ ul li a:hover{
 }
 
 .logo{
-    width: 350px;
-    height: 80px;
+    width: 500px;
     margin-top: 10px;
     margin-bottom: 10px;
 }
 
 .wrapper{
     margin: 0 auto;
-    width: 1000px;
+    width: 100%;
 }
 
+.box{
+    position:relative;
+    margin: 0 auto;
+    width: 80%;
+    height: 430px;
+    padding: 30px;
+    text-align:center;
+    border: dashed 4px white;
+}
+
+.phoneicon{
+    position: absolute;
+}
+
+.phoneicon ul{
+    text-align: left;
+}
+
+.fa-phone{
+    font-size: 30px;
+}
+
+.fa-envelope{
+    font-size: 35px;
+}
+
+.fa-building{
+    font-size: 35px;
+}
+
+.fa-briefcase{
+    font-size: 30px;
+}
+
+.fa-print{
+    font-size: 35px;
+}
