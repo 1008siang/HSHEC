@@ -48,7 +48,7 @@ ul li a:hover{
 }
 
 .logo{
-    width: 500px;
+    width: 40%;
     margin-top: 10px;
     margin-bottom: 10px;
 }
@@ -62,7 +62,6 @@ ul li a:hover{
     position:relative;
     margin: 0 auto;
     width: 80%;
-    height: 430px;
     padding: 30px;
     text-align:center;
     border: dashed 4px white;
@@ -95,3 +94,9 @@ ul li a:hover{
 .fa-print{
     font-size: 35px;
 }
+
+
+.fa-person{
+    font-size: 35px;
+}
+
